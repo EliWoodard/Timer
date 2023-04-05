@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Timer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-panel">
+        <h2>Timer Mode</h2>
+        <button class="active" onclick="setTimerMode()">Stopwatch</button>
+        <button onclick="setCountdownMode()">Countdown Timer</button>
+      </div>
+      <div class="right-panel">
+        <h1>Stopwatch</h1>
+        <div class="timer" id="timer">00:00:00</div>
+        <div class="timer-buttons">
+          <button id="start-stopwatch-btn" onclick="startStopwatch()">Start</button>
+          <button id="stop-stopwatch-btn" onclick="stopStopwatch()">Stop</button>
+          <button id="reset-stopwatch-btn" onclick="resetStopwatch()">Reset</button>
+        </div>
+      </div>
+      <div id="countdown-input" style="display: none;">
+        <input type="text" id="countdown-time" placeholder="00:00:00" />
+        <button onclick="addCountdownTime()">Add</button>
+        <button id="start-countdown-btn" onclick="startCountdown()">Start</button>
+        <button id="stop-countdown-btn" onclick="stopCountdown()">Stop</button>
+        <button id="reset-countdown-btn" onclick="resetCountdown()">Reset</button>
+      </div>
+    </div>
+
+    <script src="Main.js"></script>
+  </body>
+</html>

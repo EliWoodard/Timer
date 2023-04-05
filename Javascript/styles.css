@@ -1,0 +1,123 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left-panel {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+  }
+  
+  .left-panel h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+  }
+  
+  .left-panel button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .left-panel button.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .right-panel {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .right-panel h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 0 20px;
+  }
+  
+  .right-panel .timer {
+    font-size: 72px;
+    font-weight: bold;
+    margin: 0 0 20px;
+    text-align: center;
+  }
+  
+  .right-panel .timer small {
+    font-size: 24px;
+    font-weight: normal;
+    margin-left: 10px;
+    vertical-align: middle;
+    color: #aaa;
+  }
+  
+  #countdown-input {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  #countdown-input button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #countdown-input button:hover {
+    background-color: #555;
+  }
+  
+  #countdown-input button:not(:first-of-type) {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  #countdown-input button:not(:first-of-type):hover {
+    background-color: #eee;
+  }
+  
+  .timer-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .timer-buttons button {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
