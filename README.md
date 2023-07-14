@@ -1,6 +1,6 @@
 # Timer Program
 
-The Timer Program is a Java application that allows the user to start and stop a timer in "HH:MM:SS" format, and set a countdown timer in the same format. The program is implemented using Swing components and runs on the Event Dispatch Thread (EDT) for thread safety.
+The Timer Program is a Java application that allows the user to start and stop a timer in "HH:MM:SS" format, and set a countdown timer in the same format. The program is implemented using Swing components and runs on the Event Dispatch Thread (EDT) for thread safety. This timer does not work at this time
 
 ## Installation
 
@@ -19,6 +19,4 @@ This will launch the Timer Program GUI, which consists of a JFrame with two tabs
 
 To start the timer, click the "Start" button in the Timer tab. To stop the timer, click the "Stop" button. To set a countdown timer, enter the desired time in "HH:MM:SS" format in the Countdown tab and click the "Set" button.
 
-## License
 
-The Timer Program is licensed under the MIT License. See the LICENSE file for details.
